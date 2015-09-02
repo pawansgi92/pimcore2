@@ -1,0 +1,95 @@
+/**
+ * ./website/static/Alphasite/css/style.compare.scss
+ * ./website/static/Alphasite/css/style.compare.css
+ */
+.frame-product {
+  /* .compare-product */ }
+  .frame-product > .compare-product {
+    position: relative;
+    margin-bottom: 16px;
+    /* .btn-compare */ }
+    .frame-product > .compare-product .btn-compare {
+      text-align: left;
+      color: inherit;
+      padding: 0;
+      box-shadow: 0 0 0 transparent;
+      /* .active */ }
+      .frame-product > .compare-product .btn-compare:focus {
+        outline: none; }
+      .frame-product > .compare-product .btn-compare.active i.fa {
+        color: #669; }
+
+/* .frame-product */
+.compare-bar {
+  -webkit-transition: ease 0.3s;
+  -moz-transition: ease 0.3s;
+  -ms-transition: ease 0.3s;
+  -o-transition: ease 0.3s;
+  transition: ease 0.3s;
+  min-height: 50px;
+  line-height: 50px;
+  position: fixed;
+  bottom: -50px;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+  background: white;
+  border-top: solid 1px #669;
+  /* .btn */
+  /* .compare-items */ }
+  .compare-bar.active {
+    bottom: 0; }
+  .compare-bar p {
+    /* .message */ }
+    .compare-bar p.message {
+      text-transform: uppercase;
+      color: #888;
+      margin: 0 auto;
+      padding: 0; }
+      .compare-bar p.message > span {
+        color: #669;
+        font-weight: bolder; }
+  .compare-bar .btn {
+    /* .btn-primary */ }
+    .compare-bar .btn.btn-primary {
+      -webkit-transition: ease 0.3s;
+      -moz-transition: ease 0.3s;
+      -ms-transition: ease 0.3s;
+      -o-transition: ease 0.3s;
+      transition: ease 0.3s;
+      background: #669;
+      color: white; }
+      .compare-bar .btn.btn-primary:hover, .compare-bar .btn.btn-primary:focus {
+        background: #5c5c8a; }
+  .compare-bar .compare-items,
+  .compare-bar .btn-compare {
+    display: inline-block; }
+  .compare-bar .compare-items {
+    position: relative;
+    margin-right: 4px;
+    /* .compare-item */ }
+    .compare-bar .compare-items > .compare-item {
+      -webkit-transition: ease 0.3s;
+      -moz-transition: ease 0.3s;
+      -ms-transition: ease 0.3s;
+      -o-transition: ease 0.3s;
+      transition: ease 0.3s;
+      border: none;
+      background: #ddd;
+      color: #888;
+      box-shadow: 0 0 0 transparent;
+      cursor: default;
+      pointer-events: none;
+      /* .active */ }
+      .compare-bar .compare-items > .compare-item:hover, .compare-bar .compare-items > .compare-item:focus {
+        outline: none; }
+      .compare-bar .compare-items > .compare-item.active {
+        cursor: pointer;
+        pointer-events: auto; }
+        .compare-bar .compare-items > .compare-item.active:hover {
+          background: #669;
+          color: white; }
+
+/* .compare-bar */
+
+/*# sourceMappingURL=style.compare.css.map */

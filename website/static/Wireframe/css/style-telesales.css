@@ -1,0 +1,331 @@
+a{
+    color: #000;
+    text-decoration: none;
+}
+a:focus,a:hover{
+    color: #000;
+    text-decoration: none;
+}
+a:focus{
+    outline-offset: 0;
+}
+body{
+    font-size: 12px;
+}
+input[type="text"], input[type="password"], input[type="email"]{
+	background: transparent;
+	border-bottom: 1px solid #000;
+	border-left: none;
+	border-right: none;
+	border-top: none;
+	margin: 5px 0;
+	padding: 5px 0;
+	width: 100%;
+}
+input[type="submit"]{
+	background: #000;
+	border: none;
+	border-radius: 5px;
+	color: #FFF;
+	padding: 10px 5px;
+	width: 130px;
+}
+.header-logo{
+    max-height: 50px;
+    min-height: 50px;
+    position: fixed;
+    width: 100%;
+    z-index: 1020;
+    background: #FFF;
+}
+.logo{
+	border-bottom: 1px solid #dedede;
+	padding: 6px 0;
+	text-align: center;
+}
+.logo a{
+	display: inline-block;
+}
+.title-login h1, .title-login h2, .title-login h3, .title-login h4, .title-login h5{
+	font-weight: bold;
+
+}
+.main{
+    padding-top: 50px;
+}
+.nav-pills{
+    background: darkgrey;
+}
+.tab-menu{
+    border: 2px solid grey;
+}
+.tab-menu.active{
+    background-color: black;
+}
+.tab-menu.active a p{
+    color: white;
+}
+.tab-menu a{
+    display: block;
+    cursor: default;
+}
+.tab-menu a p{
+    margin: 0;
+    padding: 5px 5px;
+    min-height: 61px;
+}
+
+.menu-login.active{
+    background: #000;
+    color: #FFF;
+}
+.menu-login{
+    background: darkgrey;
+    border-top: 1px solid grey; 
+    border-bottom: 1px solid grey; 
+    border-left: 1px solid grey; 
+    border-right: 1px solid grey; 
+    text-align: center;
+    padding: 0;
+}
+.menu-login a, .menu-login a{
+    display: block;
+}
+.menu-login a p, .menu-login a p{
+    color: #FFF;
+    padding: 15px 0;
+    margin: 0;
+}
+.tab-content{
+	padding: 50px 0;
+}
+.forgot-password{
+	text-align: right;
+}
+.forgot-password p{
+	margin: 10px 0;
+}
+.forgot-password a {
+	display: inline-block;
+}
+.button-telesales{
+	text-align: center;
+}
+.information-login{
+	text-align: right;
+	padding: 10px 0;
+}
+.information-login ul{
+	margin: 0;
+	list-style: none;
+	padding: 0;
+}
+.information-login li{
+	display: list-item;
+}
+.title-telesales{
+	position: relative;
+}
+.title-telesales h1, .title-telesales h2, .title-telesales h3, .title-telesales h4, .title-telesales h5{
+	font-weight: bold;
+}
+.menu-nav{
+	position: absolute;
+  	float: right;
+  	padding: 8px 10px;
+  	right: -15px;
+  	bottom: 22px;
+  	border: 1px solid transparent;
+  	background: #000;
+}
+.menu-nav:focus {
+  outline: 0;
+}
+.menu-nav .glyphicon {
+  display: block;
+  color: #FFF;
+}
+.menu-nav-list{
+	background: #000;
+	margin-top: -31px;
+	display: none;
+	position: absolute;
+  	width: 100%;
+  	z-index: 1020;
+}
+.menu{
+	background: #FFF;
+	color: #000;
+	padding: 10px 15px;
+	text-align: center;
+	margin: 10px;
+
+}
+.menu-list{
+	padding: 10px 0;
+}
+.menu-list div{
+	padding: 0 8px;
+}
+.menu-list div:last-child{
+	width: 100%;
+}
+.menu-list div a{
+	display: block;
+}
+.menu-list div div{
+  	background: #FFF;
+  	display: inline-block;
+  	text-align: center;
+  	width: 100%;
+  	margin: 5px 0;
+  	min-height: 54px;
+  	display: table;
+}
+.menu-list div div p{
+	margin: 10px 0;
+	display: table-cell;
+	vertical-align: middle;
+}
+.subtitle-telesales h1, .subtitle-telesales h2, .subtitle-telesales h3, .subtitle-telesales h4, .subtitle-telesales h5{
+	font-weight: bold;
+	margin: 0;
+	padding: 10px 0;
+}
+.subtitle-telesales p.note{
+	text-align: right;
+	font-style: italic;
+}
+.errorPass{
+	color: red;
+	font-style: italic;
+	text-align: right;
+}
+.personal-button-telesales{
+	text-align: right;
+}
+.success-note{
+	margin: 10px 0;
+	color: red;
+	font-style: italic;
+}
+.permission-telesales hr{
+	margin-top: 0;
+	padding: 0;
+}
+.permission{
+	padding-left: 20px;
+}
+.txtsearch{
+	background: #000 !important;
+  	border: 1px solid #000 !important;
+  	border-radius: 10px 0 0 10px;
+  	padding: 5px 10px !important;
+  	color: #FFF;
+}
+.btn-search{
+	background: #000 !important;
+	border: 1px solid #000 !important;
+	border-radius: 0 10px 10px 0;
+	color: #FFF;
+	height: 29px;
+}
+.btn-search i{
+	padding: 0 10px;
+}
+.group-search{
+	font-size: 12px;
+}
+.status-history, .list-history{
+	padding: 20px 0;
+}
+.status-history p{
+	margin: 0;
+	font-size: 11px;
+}
+.list-history table{
+	width: 100%;
+	text-align: center;
+}
+.list-history table thead tr th p{
+	padding: 10px 5px;
+	text-align: center;
+	margin: 0;
+}
+.text-danger{
+	color: red;
+}
+.sales-order-number{
+	padding: 20px 0;
+}
+.sales-order-number p{
+	margin: 0;
+	font-weight: bold;
+} 
+.sales-order-number h1, .sales-order-number h2, .sales-order-number h3, .sales-order-number h4, .sales-order-number h5{
+	margin-top: 0;
+	font-weight: bold;
+}
+.sales-order-number .qrcode{
+	text-align: center;
+}
+.sales-order-number .qrcode p{
+	font-weight: normal;
+	margin: 10px 0;
+}
+.payment-method{
+	background: lightgrey;
+	border: 1px solid grey;
+	margin: 10px 0;
+	padding: 10px;
+}
+.payment-method h1, .payment-method h2, .payment-method h3, .payment-method h4, .payment-method h5{
+	font-weight: bold;
+	text-align: center;
+	margin: 0;
+	padding: 10px 0;
+}
+.payment-method-button{
+	text-align: center;
+}
+.payment-method-button button{
+	background: #000;
+	border: 2px solid #FFF;
+	border-radius: 10px;
+	color: #FFF;
+	padding: 10px 15px;
+}
+.payment-method-button button i{
+	margin-left: 5px;
+}
+.cart-summary{
+	padding-top: 35px;
+}
+.title-cart-summary h1, .title-cart-summary h2, .title-cart-summary h3, .title-cart-summary h4, .title-cart-summary h5{
+	position: relative;
+}
+.title-cart-summary h1 i, .title-cart-summary h2 i, .title-cart-summary h3 i, .title-cart-summary h4 i, .title-cart-summary h5 i{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+.title-cart-summary hr{
+	margin-top: 0;
+}
+.desc-cart-summary table p{
+	padding: 0 5px;
+	margin: 0;
+}
+.desc-cart-summary table hr{
+	border-color: #000;
+}
+.next-bill-summary{
+	background: lightgrey;
+	border: 1px solid grey;
+	margin: 20px -15px;
+	text-align: center;
+}
+.next-bill-summary p{
+	padding: 15px 5px;
+	margin: 0;
+}

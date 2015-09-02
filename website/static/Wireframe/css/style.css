@@ -1,0 +1,2126 @@
+a{
+    text-decoration: none;
+    color: #000;
+}
+a:focus,a:hover{
+    text-decoration: none;
+    color: #000;
+}
+a:focus{
+    outline-offset: 0;
+}
+body{
+    font-size: 12px;
+}
+hr {
+  margin-top: 0px;
+  margin-bottom: 20px;
+  border: 0;
+  border-top: 1px solid #000;
+}
+button.black{
+    background: #000;
+    border: 1px solid #000;
+    border-radius: 5px;
+    color: #FFF;
+    padding: 5px 10px;
+}
+.header{
+    position: fixed;
+    width: 100%;
+    z-index: 1020;
+    background: white;
+}
+.header-no-menu{
+    padding-top: 50px;
+}
+.header-with-menu{
+    padding-top: 185px; /*168px;*/
+}
+.breadcrumb{
+    background: none;
+    list-style: none;
+    padding: 30px 0 0 0;
+}
+.breadcrumb li+li:before{
+    content: "";
+    padding: 0;
+}
+.breadcrumb li{
+    display: inline-block;
+}
+.breadcrumb li a{
+    display: block;
+}
+.breadcrumb li h3, .breadcrumb li a h3{
+    margin: 0;
+}
+.navbar-default{
+    background: #FFF;
+}
+.navbar-brand{
+    text-align: center;
+    width: 100%;
+}
+.navbar-header{
+    float: none;
+}
+.navbar-toggle{
+    background: #000;
+    color: #FFF;
+    display: block;
+    float: left;
+    margin-right: 0;
+    margin: 17px 15px 17px 0;
+}
+.navbar-toggle .icon-bar{
+    background: #FFF;
+}
+.right{
+    text-align: right !important;
+}
+.left{
+    text-align: left;
+}
+.P1title{
+    background: #FFF;
+    border-bottom: 1px solid #E7E7E7;
+    min-height: 50px;
+}
+.P1title .img-logo img{
+    padding: 10px 0;
+    height: 49px;
+}
+.P1title .languange select{
+    margin: 15px 10px;
+}
+.store{
+    background: #FFF;
+    /*border-bottom: 1px solid #E7E7E7;*/
+}
+.store .title-store > h3{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.compare{
+    text-align: right;
+}
+.device{
+    float: right;
+    padding-top: 6px;
+    text-align: center;
+    width: 50px;
+}
+.compare .device p{
+    margin: 0;
+    text-align: center;
+}
+.P1title a h3{
+    padding: 10px 0;
+    margin: 0;
+}
+.t-menu{
+    margin-top: 35px;
+}
+.mmenu.active{
+    background: #000;
+    color: #FFF;
+}
+.mmenu{
+    background: darkgrey;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
+    text-align: center;
+    padding: 0;
+}
+.mmenu a, .mmenu a{
+    display: block;
+}
+.mmenu a h4, .mmenu a p{
+    color: #FFF;
+    padding: 15px 0;
+    margin: 0;
+}
+.tab-pane{
+    position: relative;
+}
+.pnav{
+    top: 0 !important;
+    bottom: 0;
+    height: 100% !important;
+    position: absolute !important;
+}
+.pnav .col-xs-6, .pnav .col-xs-6 form, .pnav .col-xs-6 form .pnav-menu{
+    height: 100%;
+}
+.pnav .pnav-menu > li{
+    display: block;
+}
+.pnav .pnav-menu > li button{
+    padding: 10px;
+}
+.pnav-menu > li > div{
+    padding: 5px 15px;
+}
+.check-coverage{
+    border: 1px solid grey;
+    border-radius: 5px;
+    background: lightgrey;
+    padding: 5px;
+    margin: 10px 0;
+    text-align: center;
+}
+.check-coverage p{
+    position: relative;
+    margin: 0;
+    display: block;
+    cursor: pointer;
+}
+.check-coverage p i{
+    position: absolute;
+    left: 0;
+    right: 144px;
+    top: 4px;
+}
+.cCover{
+    background: #000;
+    border-bottom: 1px solid #000;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    margin: 5px 0;
+    padding: 6px 10px;
+    width: 100%;
+    border-radius: 10px 0 0 10px;
+    color: #FFF;
+}
+.check-coverage .checkCoverage{
+    display: none;
+}
+.group-search {
+    font-size: 17px;
+}
+.btn-search {
+    background: #000;
+    border: 1px solid #000;
+    border-radius: 0 10px 10px 0;
+    color: #FFF;
+    height: 30px;
+}
+.btn-search i {
+    padding: 0 10px;
+}
+.check-coverage .checkCoverage .error-coverage{
+    color: red;
+    text-align: center;
+}
+.device-compactible p{
+    text-align: center;
+    margin: 0;
+    padding-top: 15px;
+}
+.icon-device{
+    text-align: center;
+    padding: 20px 0;
+}
+/* ------------------------------------ CAROUSEL ------------------------------------- */
+.carousel-control.left, .carousel-control.right {
+    background: transparent !important;
+}
+.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img{
+    width: 100%;
+}
+/* ------------------------------------ CAROUSEL ------------------------------------- */
+/* ------------------------------------ MODAL LOGIN ------------------------------------- */
+.modal-header{
+    border-bottom: none;
+    padding: 15px 20px;
+}
+.modal-body{
+    padding: 15px 20px;
+}
+.modal-title{
+    text-align: center;
+}
+.modal-content{
+    border-radius: 0;
+}
+.modal-dialog{
+    margin: 18% auto;
+    width: 300px;
+}
+.modal-open .modal, .modal-open{
+    padding-right: 0 !important;
+}
+/* ------------------------------------ MODAL LOGIN ------------------------------------- */
+/* ------------------------------------ OPSI  LOGIN ------------------------------------- */
+.menu-login{
+    margin: 0 auto 20px auto;
+    padding: 0;
+    list-style: none;
+    width: 70%;
+}
+.menu-login li{
+    display: list-item;
+    padding: 5px 0;
+}
+.menu-login li a{
+    color: #000;
+    text-decoration: none;
+    display: block;
+}
+.menu-login li a.signin:hover i{
+    color: darkgreen;
+}
+.menu-login li a.facebook:hover i{
+    color: #3B5998;
+}
+.menu-login li a.google-plus:hover i{
+    color: #D34836;
+}
+#register{
+    text-decoration: underline;
+}
+/* ------------------------------------ Opsi Login ------------------------------------- */
+/* --------------------------------------- LOGIN --------------------------------------- */
+.modal-title.left{
+    text-align: left;
+    padding: 0;
+}
+.modal-title.left .title-login{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.modal-title.left .title-login li{
+    display: inline-block;
+    width: 75%;
+}
+.modal-title.left .title-login li:first-child{
+    width: 15%;
+}
+.modal-title.left.text{
+    background: #000;
+    color: white;
+    padding: 0 15px;
+}
+.modal-title.left.text .text-login{
+    padding: 10px 0;
+    margin: 0;
+    list-style: none;
+    display: table;
+}
+.modal-title.left.text .text-login li{
+    vertical-align: middle;
+    display: table-cell;
+}
+.modal-title.left.text .text-login li:first-child{
+    width: 85%;
+}
+.modal-title.left.text .text-login li:last-child{
+    width: auto;
+}
+.modal-title.left.text .text-login li:last-child a{
+    color: #FFF;
+    text-decoration: none;
+}
+.modal-title.left.text .text-login li:last-child a:hover{
+    color: #DDD;
+}
+.modal-body .form-login input[type="text"], .modal-body .form-login input[type="password"]{
+    width: 100%;
+    height: 30px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 1px solid #000;
+    margin: 5px 0;
+}
+.modal-body .form-login{
+    width: 100%;
+    text-align: center;
+}
+.modal-body .form-login input[type="submit"]{
+    background: #000;
+    border-radius: 6px;
+    border: none;
+    color: #FFF;
+    height: 45px;
+    margin: 20px auto 5px;
+    width: 150px;
+}
+.modal-body .form-login input[type="submit"]:hover{
+    opacity: .5;
+}
+.modal-title.left.text p{
+    padding: 15px 0;
+}
+.modal-body .form-login p.right{
+    text-align: right;
+    margin: 0;
+    padding: 0;
+}
+p.errorpass{
+    text-align: right;
+    margin: 0;
+    padding: 10px 0;
+    font-style: italic;
+    color: red;
+}
+.passwordStrength{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 100%;
+}
+.passwordStrength li{
+    display: inline-block;
+}
+.passwordStrength li:first-child{
+    text-align: left;
+    width: 68%;
+}
+.passwordStrength li:last-child{
+    text-align: right;
+    width: 30%;
+}
+.error-list{
+    display: list-item;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* ---------------------------------------  LOGIN --------------------------------------- */
+/* ------------------------------------ REGISTRATIOM ------------------------------------ */
+.title-registration{
+    padding: 20px 0;
+}
+.note-registration{
+    text-align: right;
+    font-style: italic;
+}
+.form-registration input[type="text"], .form-registration input[type="password"]{
+    width: 100%;
+    height: 30px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 1px solid #000;
+    margin: 5px 0;
+}
+.form-registration input[type="submit"]{
+    background: #000;
+    border-radius: 6px;
+    border: none;
+    color: #FFF;
+    height: 45px;
+    margin: 20px auto 5px;
+    width: 150px;
+}
+.form-registration input[type="submit"]:hover{
+    opacity: .5;
+}
+.additional .add-more{
+    border-bottom: 1px solid #000;
+}
+.additional .add-more a{
+    text-decoration: none;
+    display: block;
+    color: #000;
+}
+.additional .add-more a i{
+    float: right;
+}
+.btn-submit{
+    text-align: right;
+    width: 100%;
+}
+.more-info .combo1{
+    width: 100%;
+    padding: 5px;
+    margin: 8px 0;
+}
+.more-info .gender{
+    list-style: none;
+    padding: 5px 0;
+    margin: 0;
+}
+.more-info .gender li{
+    display: inline-block;
+    width: 32%;
+}
+.more-info .date-of-birth{
+    float: left;
+    width: 100%;
+    padding: 5px 0;
+}
+.more-info .date-of-birth .combo2{
+    width: 32%;
+    float: left;
+    padding: 5px;
+}
+.more-info .date-of-birth .combo2.margin{
+    margin: 0 2%;
+}
+.success-registration{
+    width: 100%;
+}
+.success-registration .view-store{
+    text-align: center;
+    padding-top: 40px;
+}
+.success-registration .view-store button a{
+    display: block;
+}
+.success-registration .view-store button{
+    background: none;
+    border: none;
+    position: relative;
+    width: 120px;
+    padding: 10px 15px;
+}
+.success-registration .view-store button i{
+    position: absolute;
+    left: 0;
+    top: 5px;
+}
+/* ------------------------------------ REGISTRATIOM ------------------------------------ */
+/* ------------------------------------- FAIL LOGIN ------------------------------------- */
+.fail-login{
+    width: 100%;
+}
+.fail-login .btn-check-account{
+    text-align: center;
+    padding-top: 40px;
+}
+.fail-login .btn-check-account button a{
+    display: block;
+    color: #FFF;
+}
+.fail-login .btn-check-account button{
+    background: #000;
+    border: none;
+    padding: 15px 20px;
+    color: #FFF;
+    border-radius: 8px;
+    width: 100%;
+}
+.back-to-cart{
+    background: #000;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.back-to-cart a{
+    display: block;
+}
+.back-to-cart a p{
+    color: #FFF;
+    padding: 15px 0;
+    margin: 0;
+}
+/* ------------------------------------- FAIL LOGIN ------------------------------------- */
+/* -------------------------------------- PRODUCT -------------------------------------- */
+.fil-sort{
+    padding: 20px 0 10px 0;
+}
+.fil-sort select{
+    background: transparent;
+    border: none;
+    width: 120px;
+}
+.icon-cart{
+    position: fixed;
+    top: 65%;
+    right: 0;
+    z-index: 1021;
+    background: url('../img/icon-cart01.png');
+    background-size: cover;
+    width: 65px;
+    height: 46px;
+    display: table;
+}
+.icon-cart a{
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+    padding-left: 10px;
+}
+.icon-cart span{
+    padding: 1px 6px;
+    background: red;
+    color: white;
+    border-radius: 50%;
+    position: absolute;
+    left: 17px;
+    z-index: 2;
+}
+.product{
+    padding: 10px 0 20px 0;
+}
+.product img{
+    height: auto;
+    width: 100%;
+}
+.title-product{
+    padding: 15px 10px;
+}
+.title-product .title{
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+}
+.optionProduct{
+    list-style: none;
+}
+.optionProduct li input[type="radio"]{
+    margin: 4px 4px;
+}
+.btn-product{
+    text-align: center;
+    width: 100%;
+}
+.btn-product.addcart{
+    text-align: right;
+}
+.btn-product button{
+    background: #FFF;
+    border: 1px solid #000;
+    border-radius: 5px;
+    width: 120px;
+    margin: 0 5px;
+    padding: 10px 5px;
+}
+.loadmore{
+    display: block;
+    text-align: center;
+    background: darkgrey;
+    padding: 10px;
+}
+.main-product{
+    text-align: center;
+}
+.main-product img{
+    /*width: 100%;
+    height: auto;*/
+    padding: 5px;
+}
+.thumb-product{
+    list-style: none;
+    /*padding: 0;*/
+    padding: 35px 0;
+    text-align: center;
+}
+.thumb-product li{
+    /*display: inline-block;*/
+    padding-bottom: 20px;
+    /*height: auto;
+    width: 100%;*/
+}
+.thumb-product li img{
+    /*width: 100%;
+    height: auto;*/
+}
+.list-model{
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+.list-model li{
+    display: inline-block;
+    width: 32%;
+}
+.list-color{
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+.list-color li{
+    display: inline-block;
+    width: 32%;
+}
+.addinfo-product{
+    border: 1px dashed black;
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.desc-addlist{
+    text-align: center;
+}
+.btn-addcart{
+    text-align: right;
+}
+.btn-addcart button{
+    border: 1px solid #000;
+    background: #FFF;
+    padding: 8px 10px;
+    border-radius: 6px;
+    vertical-align: bottom;
+    width: 130px;
+}
+.check-network{
+    width: 100%;
+    border: 1px solid #000;
+    border-radius: 6px;
+    margin: 20px 0;
+    text-align: left;
+    padding: 5px 10px;
+}
+.review{
+    margin-bottom: 50px;
+}
+.review .reviewer p{
+    font-style: italic;
+    padding: 10px 0;
+}
+.view-review{
+    text-align: right;
+    margin: 10px 0;
+}
+.view-review button{
+    border: 1px solid #000;
+    background: #FFF;
+    padding: 5px 10px;
+    width: 160px;
+    border-radius: 6px;px;
+}
+.submit-review{
+    text-align: right;
+    margin: 10px 0;
+}
+.submit-review button{
+    border: 1px dashed #000;
+    background: #FFF;
+    padding: 5px 10px;
+    width: 200px;
+    border-radius: 6px;
+}
+.model{
+    margin-top: 20px;
+}
+/* -------------------------------------- PRODUCT -------------------------------------- */
+/* --------------------------------------- CART --------------------------------------- */
+.account-line{
+    padding-right: 0;
+}
+.accountline{
+    background: lightgrey;
+    border-bottom: 1px solid #000;
+    border-left: 1px solid #000;
+    border-top: 1px solid #000;
+    border-radius: 15px 0 0 15px;
+    padding: 7px;
+    height: 118px;
+}
+.account-line .text{
+    font-size: 11px;
+}
+.account-line .note{
+    color: #000;
+    font-size: 11px;
+    font-style: italic;
+    text-align: left;
+}
+.check-account{
+    padding-left: 0;
+    margin-bottom: 25px;
+}
+.check-account .checkaccount{
+    background: #000;
+    border: 4px solid #FFF;
+    border-radius: 15px;
+    color: #FFF;
+    border-right: 4px solid #FFF;
+    margin-left: -8px;
+    margin-right: -4px;
+    margin-top: -4px;
+    height: 125px;
+    text-align: center;
+}
+.checkaccount a{
+    display: block;
+}
+.checkaccount p{
+    color: #FFF;
+    padding: 15px 0;
+    font-size: 12px;
+    margin: 0;
+    cursor: pointer;
+}
+.check-account .error-checkaccount{
+    background: #000;
+    border: 4px solid #FFF;
+    border-radius: 15px;
+    color: #FFF;
+    border-right: 4px solid #FFF;
+    margin-left: -8px;
+    margin-right: -4px;
+    margin-top: -4px;
+    height: 125px;
+    text-align: center;
+}
+.error-checkaccount p{
+    color: #FFF;
+    padding: 29px 0;
+    font-size: 14px;
+    margin: 0;
+    cursor: pointer;
+}
+/*.cart-img img{
+    height: auto;
+    width: 100%;
+}*/
+.cart-title{
+    padding-left: 0;
+    padding-right: 0;
+    font-size: 12px;
+}
+.cart-title .cart-change{
+    display: block;
+    text-decoration: underline;
+}
+.cart-price{
+    padding-left: 5px;
+}
+.cart-price h3{
+    text-align: right;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.cart-price p{
+    text-align: right;
+}
+.cart-price .cart-remove{
+    display: block;
+    text-decoration: underline;
+}
+.option-check-number p{
+    margin: 0;
+}
+.include-sim{
+    border: 1px dashed #000;
+    display: none;
+    margin: 5px 0;
+    padding: 5px 5px;
+}
+.includesim p{
+    margin: 0;
+}
+.keep-number{
+    display: none;
+}
+.keep-number select{
+    height: 30px;
+    width: 67px;
+}
+.keep-img{
+    padding: 0;
+}
+/*.keep-img img{
+    width: 100%;
+}*/
+.keep-line{
+    background: lightgrey;
+    padding: 8px 10px;
+    margin-top: 10px;
+}
+.keep-title{
+    text-align: right;
+    padding: 0;
+}
+.keep-title h3{
+    margin: 0;
+    font-style: bold;
+}
+.list-product-cart{
+    border-bottom: 1px solid #000;
+    margin: 10px 0;
+    padding: 10px 0;
+}
+.total-cart{
+    text-align: right;
+}
+.total-cart p{
+    margin: 0;
+    font-size: 14px;
+}
+.total-cart p b{
+    font-size: 16px;
+}
+.buy-now{
+    text-align: right;
+}
+.buy-now a{
+    display: block;
+}
+.buy-now a button{
+    padding: 10px 15px;
+    background: #FFF;
+    border: 1px solid #000;
+    border-radius: 8px;
+    margin: 20px 0;
+    width: 130px;
+}
+.terms{
+    margin-bottom: 20px;
+}
+.title-terms .title{
+    position: relative;
+}
+.title-terms .title i{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.error-log p{
+    color: Red;
+}
+.error-log ul{
+    padding: 0 15px;
+    margin: 0;
+    color: red;
+}
+.error-log ul li p{
+    margin: 0;
+}
+/* --------------------------------------- CART --------------------------------------- */
+/* --------------------------------------- CONTINUITY MATRIX --------------------------------------- */
+.continuity-matrix-order{
+    padding-top: 20px;
+}
+.continuity-matrix-order p, .continuity-matrix-order h3{
+    margin: 0;
+}
+.continuity-matrix-qrcode{
+    text-align: center;
+    padding: 10px 0;
+}
+.continuity-matrix-qrcode .link a{
+    padding: 5px 10px;
+    margin: 5px 0;
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+.continuity-matrix-qrcode .link, .continuity-matrix-qrcode .copy-clipboard, .continuity-matrix-qrcode .print{
+    padding: 5px 0;
+}
+.continuity-matrix-note-warning{
+    color: red;
+}
+.continuity-matrix-payment-method{
+    background: lightgrey;
+    border: 1px solid grey;
+    margin: 10px 0;
+    padding: 10px;
+}
+.continuity-matrix-payment-method h5{
+    text-align: center;
+}
+.continuity-matrix-payment-method .payment-method-button {
+    text-align: center;
+}
+.continuity-matrix-payment-method button{
+    background: #000;
+    border: 2px solid darkgrey;
+    border-radius: 10px;
+    color: #FFF;
+    padding: 10px 15px;
+}
+.continuity-matrix-change{
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+/* --------------------------------------- CONTINUITY MATRIX --------------------------------------- */
+/* --------------------------------------- SUCCESS PAYMENR --------------------------------------- */
+.successPayment-rate{
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+.submit-rate{
+    border: 1px dashed #000;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 15px 10px;
+    text-align: center;
+}
+.submit-rate .glad{
+    background: url('/website/static/img/smile.png');
+    height: 50px;
+    width: 50px;
+}
+.comment textarea{
+    width: 100%;
+}
+.comment .submit-comment{
+    text-align: right;
+}
+.comment .submit-comment button{
+    background: #FFF;
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 10px 15px;
+}
+/* --------------------------------------- SUCCESS PAYMENR --------------------------------------- */
+/* -------------------------------------- PAYMENT -------------------------------------- */
+.space{
+    height: 15px;
+}
+.nav-pills{
+    background: darkgrey;
+}
+.tab-menu{
+    border: 2px solid grey;
+}
+.tab-menu.active{
+    background-color: black;
+}
+.tab-menu.active a p{
+    color: white;
+}
+.tab-menu a{
+    display: block;
+    cursor: default;
+}
+.tab-menu a p{
+    margin: 0;
+    padding: 5px 5px;
+    min-height: 61px;
+}
+.pick-number{
+    border: 1px dashed #000;
+    padding: 5px;
+    margin: 10px 0;
+}
+.list-number{
+    border: 1px solid #000;
+    text-align: center;
+}
+.submit-number input[type="text"]{
+    width: 130px;
+    height: 30px;
+}
+.submit-number button{
+    background: #FFF;
+    border: 1px solid #000;
+    border-radius: 7px;
+    padding: 5px 30px;
+}
+.random-number button{
+    background: #FFF;
+    border: 1px solid #000;
+    border-radius: 7px;
+    padding: 5px 30px;
+    width: 100%;
+    margin: 20px 0;
+}
+.keepNumber{
+    padding: 5px;
+    border: 1px dashed #000;
+    margin: 10px 0;
+}
+.keepnumber p{
+    position: relative;
+}
+.keepnumber button{
+    position: absolute;
+    bottom: -3px;
+    right: 0;
+    background: #FFF;
+    border: 1px solid #000;
+    border-radius: 4px;
+    padding: 3px 15px;
+}
+.keepnumber hr{
+    margin-bottom: 10px;
+}
+.keepnumber .error{
+    color: red;
+}
+.keepNumber p span{
+    text-decoration: underline;
+}
+.checkNumber{
+    padding: 20px 5px;
+    background-color: lightgrey;
+    border: 1px solid #000;
+    margin: 5px 0;
+}
+.img-number{
+    padding-right: 0;
+}
+.img-number img{
+    width: 80px;
+}
+.check-number{
+    padding: 0 10px;
+}
+.check-number input[type="text"]{
+    width: 62%; /*102px*/
+    height: 25px;
+    border-bottom: 1px solid #000;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    background: transparent;
+    color: #000;
+}
+.check-number button{
+    background: #FFF;
+    border: 1px solid #000;
+    border-radius: 4px;
+    padding: 3px 4px;
+    margin: 0px 5px;
+    width: 32%;
+}
+.tax-code{
+    margin-top: 10px;
+}
+.tax-code input[type="text"]{
+    width: 77%;
+    height: 25px;
+    border-bottom: 1px solid #000;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    background: transparent;
+    color: #000;
+}
+.tax-code button{
+    background: #FFF;
+    border: 1px solid #000;
+    border-radius: 4px;
+    padding: 3px 2px;
+    margin: 0 0 0 5px;
+    width: 19.5%;
+}
+.error{
+    color: red;
+}
+.tipe-line{
+    margin: 10px 0;
+}
+.tipe-line div{
+    padding: 0;
+}
+.tipe-line div p{
+    margin: 5px 0;
+}
+.ic-pass{
+    margin: 10px 0;
+}
+.ic-pass select{
+    width: 100%;
+    padding: 10px 5px;
+}
+.ic-pass ul{
+    padding-left: 15px;
+}
+.btn-next{
+    text-align: right;
+    margin-bottom: 20px;
+}
+.btn-next button{
+    background: #000;
+    border: none;
+    color: #FFF;
+    padding: 5px 10px;
+    border-radius: 7px;
+    width: 100px
+}
+.note{
+    text-align: right;
+}
+.form-step2{
+    margin-bottom: 20px;
+}
+.form-step2 input[type="text"]{
+    width: 100%;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 1px solid #000;
+    margin: 5px 0;
+    padding: 5px 0;
+}
+.form-step2 select{
+    width: 100%;
+    border: 1px solid #000;
+    margin: 5px 0;
+    padding: 5px 0;
+}
+.form-step2 .gender{
+    margin: 5px 0;
+    padding: 0;
+    list-style: none;
+}
+.form-step2 .gender li{
+    display: inline-block;
+    width: 32%;
+}
+.form-step2 .datebirth div{
+    padding: 0 5px;
+}
+.form-step2 .datebirth div:first-child{
+    padding: 0;
+}
+.form-step2 .datebirth div:last-child{
+    padding: 0;
+}
+.form-step2 .datebirth select{
+    width: 100%;
+}
+.form-step2 p{
+    margin: 5px 0;
+}
+.form-step2 .rdo{
+    margin-left: 15px;
+    padding-left: 15px;
+}
+.form-step2 .btn-form-step2{
+    text-align: center;
+    margin: 10px 0;
+}
+.form-step2 .btn-form-step2 input[type="submit"]{
+    background: #000;
+    border: none;
+    border-radius: 5px;
+    color: #FFF;
+    padding: 5px 10px;
+    width: 130px;
+    text-align: center;
+}
+.form-step2 .self-pickup, .form-step2 .doorstep{
+    display: none;
+}
+.form-step2 .self-pickup .getstore{
+    padding: 0;
+    list-style: none;
+}
+.form-step2 .self-pickup .getstore li{
+    display: inline-block;
+    margin-right: 10px;
+}
+.form-step2 .self-pickup .getstore li a{
+    text-decoration: underline;
+}
+.form-step2 .doorstep{
+    background-color: lightgrey;
+    padding: 5px 10px;
+    border: 1px solid grey;
+}
+.form-step2 .doorstep .altenative-address {
+    display: none;
+}
+.form-step2 .doorstep .altenative-address input[type="text"]{
+    background: transparent;
+}
+.form-step2 .doorstep .altenative-address .note{
+    text-align: right;
+    text-decoration: underline;
+    font-style: italic;
+}
+.step3-list-prod, .step3-total{
+    border-bottom: 1px solid #000;
+    padding: 10px 0;
+    margin: 10px 0;
+}
+.step3-list-prod table, .step-3-total table{
+    width: 100%;
+}
+.step3-list-prod p.note{
+    font-style: italic;
+    color: grey;
+}
+.voucher{
+    margin-bottom: 20px;
+}
+.voucher .input-voucher input{
+    height: 30px;
+}
+.voucher .input-voucher .btn-voucher button{
+    background: #FFF;
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 5px 0;
+}
+.step3-btn{
+    text-align: center;
+}
+.step3-btn button{
+    background: #000;
+    border: 1px solid #000;
+    border-radius: 5px;
+    color: #FFF;
+    padding: 10px 5px;
+    margin: 15px 2px;
+    width: 140px;
+}
+.step3-success{
+    padding: 20px 0;
+}
+.step3-success .order p:first-child, .step3-success .link p:first-child, .step3-success .payment p:first-child, .step3-success .change p:first-child{
+    margin: 0;
+}
+.step3-success .barcode{
+    text-align: center;
+    padding: 10px 0 20px 0;
+}
+.step4-payment .payment{
+    background: lightgrey;
+    border: 1px solid grey;
+    padding: 25px;
+    margin: 10px 0;
+    text-align: center;
+}
+.step4-btn{
+    text-align: right;
+}
+.step4-btn button{
+    background: #000;
+    border: 1px solid #000;
+    border-radius: 5px;
+    color: #FFF;
+    padding: 5px 5px;
+    margin: 15px 5px;
+    width: 125px;
+}
+.step4-no{
+    text-align: center;
+}
+/* -------------------------------------- PAYMENT -------------------------------------- */
+/* -------------------------------------- RATING -------------------------------------- */
+.check-compactibility a button{
+    background: lightgrey;
+    border: 1px solid #000;
+    padding: 5px 10px;
+    width: 100%;
+    border-radius: 5px;
+    text-align: left;
+    margin: 10px 0 20px 0;
+}
+.rating{
+    text-align: left;
+    height: 180px;
+}
+.submit-rating{
+    border: 1px dashed black;
+    padding: 8px;
+    float: left;
+    width: 100%;
+    margin-bottom: 40px;
+}
+.submit-rating p{
+    float: left;
+    font-size: 12px;
+    margin: 8px 0;
+}
+.stars {
+  background: url("../img/stars.png") repeat-x 0 0;
+  width: 150px;
+  /*margin: 0 auto;*/
+  float: right;
+}
+
+.stars input[type="radio"] {
+  position: absolute;
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+.stars input[type="radio"].star-5:checked ~ span {
+  width: 100%;
+}
+.stars input[type="radio"].star-4:checked ~ span {
+  width: 80%;
+}
+.stars input[type="radio"].star-3:checked ~ span {
+  width: 60%;
+}
+.stars input[type="radio"].star-2:checked ~ span {
+  width: 40%;
+}
+.stars input[type="radio"].star-1:checked ~ span {
+  width: 20%;
+}
+.stars label {
+  display: block;
+  width: 30px;
+  height: 30px;
+  margin: 0!important;
+  padding: 0!important;
+  text-indent: -999em;
+  float: left;
+  position: relative;
+  z-index: 10;
+  background: transparent!important;
+  cursor: pointer;
+}
+.stars label:hover ~ span {
+  background-position: 0 -30px;
+}
+.stars label.star-5:hover ~ span {
+  width: 100% !important;
+}
+.stars label.star-4:hover ~ span {
+  width: 80% !important;
+}
+.stars label.star-3:hover ~ span {
+  width: 60% !important;
+}
+.stars label.star-2:hover ~ span {
+  width: 40% !important;
+}
+.stars label.star-1:hover ~ span {
+  width: 20% !important;
+}
+.stars span {
+  display: block;
+  width: 0;
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 30px;
+  background: url("../img/stars.png") repeat-x 0 -60px;
+  -webkit-transition: -webkit-width 0.5s;
+  -moz-transition: -moz-width 0.5s;
+  -ms-transition: -ms-width 0.5s;
+  -o-transition: -o-width 0.5s;
+  transition: width 0.5s;
+}
+/* -------------------------------------- RATING -------------------------------------- */
+/* -------------------------------------- NO RATING -------------------------------------- */
+.no-rating {
+    background: url("../img/stars.png") repeat-x 0 0;
+    width: 150px;
+    /*margin: 0 auto;*/
+    margin-bottom: 10px;
+}
+
+.no-rating input[type="radio"] {
+  position: absolute;
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+.no-rating input[type="radio"].star-5:checked ~ span {
+  width: 100%;
+}
+.no-rating input[type="radio"].star-4:checked ~ span {
+  width: 80%;
+}
+.no-rating input[type="radio"].star-3:checked ~ span {
+  width: 60%;
+}
+.no-rating input[type="radio"].star-2:checked ~ span {
+  width: 40%;
+}
+.no-rating input[type="radio"].star-1:checked ~ span {
+  width: 20%;
+}
+.no-rating label {
+  display: block;
+  width: 30px;
+  height: 30px;
+  margin: 0!important;
+  padding: 0!important;
+  text-indent: -999em;
+  float: left;
+  position: relative;
+  z-index: 10;
+  background: transparent!important;
+  cursor: pointer;
+}
+.no-rating span {
+  display: block;
+  width: 0;
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 30px;
+  background: url("../img/stars.png") repeat-x 0 -60px;
+  -webkit-transition: -webkit-width 0.5s;
+  -moz-transition: -moz-width 0.5s;
+  -ms-transition: -ms-width 0.5s;
+  -o-transition: -o-width 0.5s;
+  transition: width 0.5s;
+}
+.submit-rating:after,.submit-rating p:after, .stars:after, .rating:after{
+    clear: both;
+}
+/* -------------------------------------- NO RATING -------------------------------------- */
+/* ----- CREDIT CHECK ----*/
+.registration{
+    padding: 0 15px;
+}
+.ordersummary{
+    padding: 0 15px;
+}
+.number-boxes .number-box .number-box--head a.nbc-trigger{
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+1,2b2b2b+100&amp;0+0,0.65+100 */
+    background: -moz-linear-gradient(left,  rgba(0,0,0,0) 0%, rgba(0,0,0,0.01) 1%, rgba(43,43,43,0.65) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(0,0,0,0)), color-stop(1%,rgba(0,0,0,0.01)), color-stop(100%,rgba(43,43,43,0.65))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(left,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.01) 1%,rgba(43,43,43,0.65) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(left,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.01) 1%,rgba(43,43,43,0.65) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(left,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.01) 1%,rgba(43,43,43,0.65) 100%); /* IE10+ */
+    background: linear-gradient(to right,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.01) 1%,rgba(43,43,43,0.65) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a62b2b2b',GradientType=1 ); /* IE6-9 */
+}
+.number-boxes .number-box .number-box--head{
+    padding: 0 13px !important;
+}
+.number-boxes .number-box .number-box--head img.img-responsive{
+    padding: 7px 0 !important;
+}
+.number-boxes .number-box .number-box--head p{
+    padding: 7px 0 !important;
+}
+form.form-custom .form-group{
+    margin-bottom: 7px;
+}
+.form-custom .date-of-birth{
+    float: left;
+    width: 100%;
+    padding: 5px 0;
+}
+.form-custom .date-of-birth select.one-third{
+    width: 32%;
+    float: left;
+    padding: 5px;
+}
+.form-custom .date-of-birth select.one-third.margin{
+    margin: 5px 2%;
+}
+form.form-custom select{
+    padding: 5px !important;
+    margin: 5px 0;
+}
+.form-control{
+    height: auto;
+}
+.checkbox, .radio{
+    margin-top: 0;
+}
+.number-boxes .number-box .number-box--content.active{
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+78,2b2b2b+100&amp;0+78,0.65+100 */
+    background: -moz-linear-gradient(left,  rgba(0,0,0,0) 78%, rgba(43,43,43,0.65) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right top, color-stop(78%,rgba(0,0,0,0)), color-stop(100%,rgba(43,43,43,0.65))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(left,  rgba(0,0,0,0) 78%,rgba(43,43,43,0.65) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(left,  rgba(0,0,0,0) 78%,rgba(43,43,43,0.65) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(left,  rgba(0,0,0,0) 78%,rgba(43,43,43,0.65) 100%); /* IE10+ */
+    background: linear-gradient(to right,  rgba(0,0,0,0) 78%,rgba(43,43,43,0.65) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a62b2b2b',GradientType=1 ); /* IE6-9 */
+}
+.input{
+    width: 100%;
+    height: 34px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 1px solid #000;
+    background: transparent;
+}
+.combobox{
+    width: 100%;
+    padding: 5px;
+    margin: 5px 0;
+}
+.self-pickup, .doorstep {
+    display: none;
+    padding: 5px 15px;
+}
+.doorstep{
+    background-color: lightgrey;
+    padding: 5px 0;
+    border: 1px solid grey;
+    margin: 5px 15px;
+}
+.delivery-option p{
+    padding-left: 15px;
+}
+.bill-option{
+    list-style: none; padding-left: 15px;
+}
+.doorstep p{
+    margin: 5px 0;
+}
+.doorstep .altenative-address{
+    display: none;
+    padding: 0 5px;
+}
+.doorstep .altenative-address input[type="text"]{
+    width: 100%;
+    height: 34px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 1px solid #000;
+    background: transparent;
+}
+.doorstep .altenative-address .note{
+    text-align: right;
+    text-decoration: underline;
+    font-style: italic;
+}
+.self-pickup select{
+    width: 100%;
+    border: 1px solid #000;
+    margin: 5px 0;
+    padding: 5px 0;
+}
+.self-pickup .getstore{
+    padding: 0;
+    list-style: none;
+}
+.self-pickup .getstore li {
+    display: inline-block;
+    margin-right: 10px;
+}
+/* ----- CREDIT CHECK ----*/
+@media (min-width:768px){
+    .modal-dialog{
+        margin: 6% auto;
+        width: 350px;
+    }
+}
+
+@media (max-width:320px){
+    .main-product img{
+        width: 100%;
+    }
+    .thumb-product{
+        padding: 30px 0;
+    }
+    .thumb-product li img{
+        width: 100%;
+        height: 100%;
+    }
+}
+
+/*------ SELFCARE ------*/
+.selfcare-current-order{
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.selfcare-current-order table td, .selfcare-completed-order table td{
+    width: 80%;
+}
+.selfcare-current-order table td:first-child, .selfcare-current-order table td:last-child, .selfcare-completed-order table td:first-child, .selfcare-completed-order table td:last-child{
+    width: 10%;
+}
+.qrcode{
+    text-align: center;
+}
+.payment-method-selfcare{
+    background: lightgrey;
+    border: 1px solid grey;
+    margin: 10px 0;
+    padding: 10px;
+}
+.payment-method-selfcare .payment-method-selfcare-button{
+    text-align: center;
+}
+.payment-method-selfcare .payment-method-selfcare-button button{
+    background: #000;
+    border: 2px solid #FFF;
+    border-radius: 10px;
+    color: #FFF;
+    padding: 10px 15px;
+}
+.cart-summary, .personal-information{
+    /*background: lightgrey;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;*/
+    padding: 10px 0;
+}
+.cart-next-summnary{
+    background: lightgrey;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    padding: 10px 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.cart-summary .title-cartsum, .cart-next-summnary .title-nextsum, .personal-information .title-perinfo, .title-regisinfo{
+    position: relative;
+}
+.cart-summary .title-cartsum i, .cart-next-summnary .title-nextsum i, .personal-information .title-perinfo i, .title-regisinfo i{
+    position: absolute;
+    right: 10px;
+}
+.text-danger{
+    color: red;
+}
+/*------ SELFCARE ------*/
+/*------ NEWLOGIN ------*/
+.modal-body{
+    padding: 15px;
+    margin: 0;
+}
+.modal-body div.col-xs-6{
+    padding: 0 5px;
+}
+.loginOption{
+    background: #000;
+    color: #FFF;
+    height: 60px;
+    margin: 5px 0;
+}
+.loginOption a{
+    color: #FFF;
+    display: block;
+    text-align: center;
+    /*padding: 13px 25px 13px 35px;*/
+    padding: 13px 25px 13px 42px;
+    position: relative;
+}
+.loginOption.last a{
+    padding: 22px 25px 22px 35px;
+}
+.loginOption.last a i{
+    top: 18px;
+}
+.loginOption a i{
+    position: absolute;
+    left: 20px;
+}
+.loginEmailVerify{
+    border: 1px solid #000;
+    padding: 15px;
+}
+.loginEmailVerify input[type="text"], .loginEmailVerify input[type="password"]{
+    width: 100%;
+    height: 30px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 1px solid #000;
+    margin: 5px 0;
+}
+.loginEmailVerify form{
+    text-align: center;
+}
+.loginEmailVerify input[type="submit"]{
+    background: #000;
+    border-radius: 6px;
+    border: none;
+    color: #FFF;
+    height: 40px;
+    margin: 20px auto 5px;
+    width: 130px;
+}
+.loginEmailVerify input[type="submit"]:hover{
+    opacity: .5;
+}
+/*------ NEWLOGIN ------*/
+/*------ NEED HELP ------*/
+.needhelp{
+    padding-top: 50px;
+}
+.needhelp p{
+    margin: 10px 0;
+}
+.needhelp input[type="text"], .needhelp input[type="email"]{
+    width: 54%;
+    height: 38px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 1px solid #000;
+    margin: 5px 0;
+}
+.needhelp input[type="submit"]{
+    background: #000;
+    border-radius: 6px;
+    border: none;
+    color: #FFF;
+    height: 40px;
+    margin: 5px auto;
+    width: 130px;
+}
+/*------ NEED HELP ------*/
+/*------ MENU NAV ------*/
+.menu-nav{
+    background: transparent;
+    border: 1px solid transparent;
+}
+.menu-nav-list{
+    background: #000;
+    display: none;
+    z-index: 1020;
+}
+.menu-nav-list .userinfo{
+    position: relative;
+}
+.menu-nav-list .userinfo p{
+    color: #FFF;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+.menu-nav-list .userinfo p:last-child{
+    color: #FFF;
+    position: absolute;
+    right: 10px;
+    top: 0;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+.menu{
+    background: #FFF;
+    color: #000;
+    padding: 10px 15px;
+    text-align: center;
+    margin: 10px;
+
+}
+.menu-list{
+    padding: 10px 0;
+}
+.menu-list div{
+    padding: 0 8px;
+}
+.menu-list div:last-child{
+    width: 100%;
+}
+.menu-list div a{
+    display: block;
+}
+.menu-list div div{
+    background: #FFF;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    margin: 5px 0;
+    min-height: 54px;
+    display: table;
+}
+.menu-list div div p{
+    margin: 10px 0;
+    display: table-cell;
+    vertical-align: middle;
+}
+/*------ MENU NAV ------*/
+/*------ PESONAL INFORMATION ------*/
+.title-selfcare{
+    padding-top: 40px;
+}
+.title-selfcare p{
+    margin: 0;
+}
+.title-selfcare h1, .title-selfcare h2, .title-selfcare h3, .title-selfcare h4, .title-selfcare h5{
+    font-weight: bold;
+    margin-top: 0;
+}
+.error-selfcare{
+    padding: 20px 0;
+}
+.form-personal-selfcare input[type="text"], .form-personal-selfcare input[type="password"]{
+    width: 100%;
+    height: 30px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 1px solid #000;
+    margin: 5px 0;
+}
+.form-personal-selfcare input[type="submit"]{
+    background: #000;
+    border-radius: 6px;
+    border: none;
+    color: #FFF;
+    height: 40px;
+    margin: 20px auto 5px;
+    width: 130px;
+}
+.form-personal-selfcare input[type="submit"]:hover{
+    opacity: .5;
+}
+.form-personal-selfcare .gender{
+    padding-top: 10px;
+}
+.form-personal-selfcare .combo-full{
+    width: 100%;
+    padding: 5px;
+    margin: 8px 0;
+}
+.form-personal-selfcare .date-of-birth{
+    float: left;
+    width: 100%;
+    padding: 5px 0;
+}
+.form-personal-selfcare .date-of-birth select.one-third{
+    width: 32%;
+    float: left;
+    padding: 5px;
+}
+.form-personal-selfcare .date-of-birth select.one-third.margin{
+    margin: 0 2%;
+}
+.form-personal-selfcare .changepass-selfcare{
+    padding-top: 30px;
+}
+.form-personal-selfcare .changepass-selfcare h1, .form-personal-selfcare .changepass-selfcare h2, .form-personal-selfcare .changepass-selfcare h3, .form-personal-selfcare .changepass-selfcare h4, .form-personal-selfcare .changepass-selfcare h5{
+    font-weight: bold;
+}
+.form-personal-selfcare .changepass-selfcare .success-note{
+    color: red;
+}
+/*------ PESONAL INFORMATION ------*/
+/*------ FAQ ------*/
+.faq{
+    padding: 20px 0;
+}
+.faq input[type="text"]{
+    width: 79%;
+    height: 30px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 1px solid #000;
+    margin: 5px 0;
+    padding-left: 30px;
+}
+.faq input[type="submit"]{
+    background: #000;
+    border-radius: 6px;
+    border: none;
+    color: #FFF;
+    height: 35px;
+    width: 20%;
+}
+.ask{
+    position: relative;
+}
+.ask i{
+    position: absolute;
+    left: 0;
+    top: 5px;
+}
+.live-chat button{
+    background: lightgrey;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 25px;
+    border: 1px solid darkgrey;
+    border-radius: 5px;
+    width: 100%;
+}
+.live-chat button i{
+    text-align: right;
+    vertical-align: middle;
+}
+.more-faq{
+    margin: 0;
+    padding-top: 30px;
+    padding-left: 0;
+    list-style: none;
+}
+.more-faq li{
+    padding: 5px 0;
+}
+/*------ FAQ ------*/
+/*------ ORDER TRACKING ------*/
+.order-tracking{
+    padding-bottom: 30px;
+}
+.order-tracking-status{
+    padding: 5px 0;
+}
+.order-tracking-status p{
+    margin: 0;
+}
+.order-tracking-status h4{
+    font-weight: bold;
+}
+/*------ ORDER TRACKING ------*/
+/*------ CHECK COVERAGE ------*/
+.check-coverage-status{
+    padding: 30px 0;
+}
+.order-tracking-status p, .order-tracking-status h4{
+    margin: 0;
+    padding: 0;
+}
+/*------ CHECK COVERAGE ------*/
+/*------ DETAIL ORDER ------*/
+.selfcare-order p{
+    margin: 0;
+} 
+.selfcare-order h1, .selfcare-order h2, .selfcare-order h3, .selfcare-order h4, .selfcare-order h5{
+    margin-top: 0;
+}
+.form-cancel-order p{
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+.form-cancel-order input[type="text"]{
+    width: 100%;
+    height: 30px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 1px solid #000;
+    margin: 5px 0;
+}
+.form-cancel-order input[type="submit"]{
+    background: #000;
+    border-radius: 6px;
+    border: none;
+    color: #FFF;
+    height: 35px;
+    width: 130px;
+    margin: 0 auto;
+}
+.form-cancel-order select{
+    width: 100%;
+    padding: 5px;
+    margin: 5px 0;
+}
+.form-cancel-order textarea{
+    width: 100%;
+    height: 100px;
+    margin-bottom: 20px;
+}
+/*------ DETAIL ORDER ------*/
+/*------ ACCOUNT SUMMARY ------*/
+.balance-summary{
+    min-height: 50px;
+    padding-right: 0;
+}
+.balance-summary p{
+    margin: 0;
+    padding: 19px 10px 19px 0px;
+}
+.amount-summary{
+    min-height: 50px;
+    padding-left: 0;
+}
+.amount-summary h5{
+    background: darkgrey;
+    margin: 0;
+    padding: 5px 10px;
+}
+.amount-summary h5 small{
+    color: #000;
+}
+.account-summary-box{
+    background: #dedede;
+    border: 1px solid #000;
+    border-radius: 5px;
+    margin: 10px 0;
+    padding: 10px 15px;
+}
+/*------ ACCOUNT SUMMARY ------*/
+/*------ ACCOUNT SUMMARY DETAIL ------*/
+.account-summary-detail{
+    border-bottom: 1px solid #000;
+    margin: 10px 0;
+    padding: 10px 0;
+}
+.account-summary-detail p{
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+.account-summary-detail h1, .account-summary-detail h2, .account-summary-detail h3, .account-summary-detail h4, .account-summary-detail h5{
+    position: relative;
+    padding-left: 25px;
+}
+.account-summary-detail h1 i, .account-summary-detail h2 i, .account-summary-detail h3 i, .account-summary-detail h4 i, .account-summary-detail h5 i{
+    position: absolute;
+    top: -5px;
+    left: 0;
+}
+.account-summary-detail-total h1, .account-summary-detail-total h2, .account-summary-detail-total h3, .account-summary-detail-total h4, .account-summary-detail-total h5{
+    margin: 0;
+    padding: 0;
+}
+.account-summary-detail-total p{
+    margin: 10px 0;
+}
+.share-input{
+    padding-right: 5px;
+}
+.share-input input[type="text"]{
+    width: 100%;
+    height: 34px;
+    border: 1px solid #000;
+    padding: 0 10px;
+}
+.share-button{
+    padding-left: 5px;
+}
+.share-button input[type="submit"]{
+    background: #000;
+    border-radius: 6px;
+    border: none;
+    color: #FFF;
+    height: 35px;
+    width: 100%;
+    max-width: 130px;
+    margin: 0 auto;
+}
+.notif-share p{
+    margin: 10px 0;
+    color: red;
+}
+/*------ ACCOUNT SUMMARY DETAIL ------*/
+/*------ BILL HISTORY ------*/
+.bill-history{
+    border: 1px solid #000;
+    background: #dedede;
+    border-radius: 5px;
+    margin: 10px 0;
+    padding: 10px;
+}
+.last-history{
+    border-bottom: 1px solid #000;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+.tips ul{
+    padding-left: 15px;
+}
+/*------ BILL HISTORY ----.--*/
+/*------ SELFCARE ------*/
+/*Timesup*/
+.timesup h4{
+    padding: 0;
+    margin: 0;
+}
+.timesup-option{
+    text-align: center;
+    padding: 20px 0;
+}
+.timesup-option button{
+    background: #FFF;
+    border: 1px solid #000;
+    border-radius: 5px;
+    color: #FFF;
+    padding: 5px 10px;
+    margin: 5px;
+    color: #000;
+    width: 100px;
+    height: 35px;
+}
+/*Timesup*/
+
+#pageloader{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background: rgba(0,0,0, 0.4);
+    z-index: 999999;
+}
+.loader{
+    position: absolute;
+    width: auto;
+    height: height;
+    margin: -25px 0 0 -25px;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+}

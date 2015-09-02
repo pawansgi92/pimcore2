@@ -1,0 +1,167 @@
+/**
+ * ./website/static/Alphasite/css/style.compare.scss
+ * ./website/static/Alphasite/css/style.compare.css
+ */
+
+$color_primary: #669;
+
+@mixin transition( $duration, $effect )
+{
+    // ease | linear | ease-in | ease-out | ease-in-out
+    -webkit-transition: $duration $effect;
+    -moz-transition:    $duration $effect;
+    -ms-transition:    $duration $effect;
+    -o-transition:      $duration $effect;
+    transition:         $duration $effect;
+}
+
+@mixin translateY( $y )
+{
+    -webkit-transform: translateY( $y );
+    -moz-transform: translateY( $y );
+    -ms-transform: translateY( $y );
+    -o-transform: translateY( $y );
+    transform: translateY( $y );
+}
+
+@mixin translateX( $x )
+{
+    -webkit-transform: translateX( $x );
+    -moz-transform: translateX( $x );
+    -ms-transform: translateX( $x );
+    -o-transform: translateX( $x );
+    transform: translateX( $x );
+}
+
+@mixin translate3d( $x, $y, $z )
+{
+    -webkit-transform: translate3d( $x, $y, $z );
+    -moz-transform: translate3d( $x, $y, $z );
+    -ms-transform: translate3d( $x, $y, $z );
+    -o-transform: translate3d( $x, $y, $z );
+    transform: translate3d( $x, $y, $z );
+}
+
+.frame-product
+{
+    & > .compare-product
+    {
+        position: relative;
+        margin-bottom: 16px;
+        .btn-compare
+        {
+            text-align: left;
+            color: inherit;
+            padding: 0;
+            box-shadow: 0 0 0 transparent;
+
+            &:focus
+            {
+                outline: none;
+            }
+
+            &.active
+            {
+                i.fa
+                {
+                    color: $color_primary;
+                }
+            } /* .active */
+
+        } /* .btn-compare */
+    } /* .compare-product */
+} /* .frame-product */
+
+.compare-bar
+{
+    @include transition( ease, 0.3s );
+    min-height: 50px;
+    line-height: 50px;
+    position: fixed;
+    bottom: -50px;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    background: white;
+    border-top: solid 1px $color_primary;
+
+    &.active
+    {
+        bottom: 0;
+    }
+
+    p
+    {
+        &.message
+        {
+            text-transform: uppercase;
+            color: #888;
+            margin: 0 auto;
+            padding: 0;
+
+            & > span
+            {
+                color: $color_primary;
+                font-weight: bolder;
+            }
+
+        } /* .message */
+    }
+
+    .btn
+    {
+        &.btn-primary
+        {
+            @include transition( ease, 0.3s );
+            background: $color_primary;
+            color: white;
+            &:hover,
+            &:focus
+            {
+                background: darken( $color_primary, 5% );
+            }
+        } /* .btn-primary */
+    } /* .btn */
+
+    .compare-items,
+    .btn-compare
+    {
+        display: inline-block;
+    }
+
+    .compare-items
+    {
+        position: relative;
+        margin-right: 4px;
+        & > .compare-item
+        {
+            @include transition( ease, 0.3s );
+            border: none;
+            background: #ddd;
+            color: #888;
+            box-shadow: 0 0 0 transparent;
+            cursor: default;
+            pointer-events: none;
+            &:hover,
+            &:focus
+            {
+                // background: $color_primary;
+                // color: white;
+                outline: none;
+            }
+
+            &.active
+            {
+                cursor: pointer;
+                pointer-events: auto;
+                &:hover
+                {
+                    background: $color_primary;
+                    color: white;
+                }
+            } /* .active */
+
+        } /* .compare-item */
+    } /* .compare-items */
+
+} /* .compare-bar */
